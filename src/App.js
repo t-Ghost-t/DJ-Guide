@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronRight, ChevronDown } from 'lucide-react';
+import { ChevronRight, ChevronDown, Menu, X } from 'lucide-react';
 
 const categories = [
   {
@@ -316,6 +316,7 @@ const TutorialPresentation = () => {
   const [activeCategory, setActiveCategory] = useState(0);
   const [activeSubcategory, setActiveSubcategory] = useState(0);
   const [expandedCategories, setExpandedCategories] = useState([0]);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleCategory = (index) => {
     setExpandedCategories(prev => 
@@ -326,12 +327,24 @@ const TutorialPresentation = () => {
   const handleCategoryClick = (categoryIndex, subcategoryIndex) => {
     setActiveCategory(categoryIndex);
     setActiveSubcategory(subcategoryIndex);
+    setIsMobileMenuOpen(false); // Close mobile menu after selection
+  };
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
   return (
-    <div className="flex h-screen bg-gray-100">
+    <div className="flex flex-col md:flex-row h-screen bg-gray-100">
+      {/* Mobile Menu Button */}
+      <div className="md:hidden p-4 bg-white shadow-md">
+        <button onClick={toggleMobileMenu} className="text-gray-500 hover:text-gray-700">
+          {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
+      </div>
+
       {/* Side Panel */}
-      <div className="w-64 bg-white shadow-md overflow-y-auto">
+      <div className={`w-full md:w-64 bg-white shadow-md overflow-y-auto ${isMobileMenuOpen ? 'block' : 'hidden'} md:block`}>
         {categories.map((category, categoryIndex) => (
           <div key={categoryIndex}>
             <button
@@ -363,24 +376,22 @@ const TutorialPresentation = () => {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 p-8 overflow-y-auto">
-        <h1 className="text-3xl font-bold mb-4">
+      <div className="flex-1 p-4 md:p-8 overflow-y-auto">
+        <h1 className="text-2xl md:text-3xl font-bold mb-2 md:mb-4">
           {categories[activeCategory].name}
         </h1>
-        <h2 className="text-xl font-semibold mb-4">
+        <h2 className="text-lg md:text-xl font-semibold mb-2 md:mb-4">
           {categories[activeCategory].subcategories[activeSubcategory]}
         </h2>
         <div
-  className="bg-white rounded-lg shadow-md p-6 break-words overflow-auto"
-  dangerouslySetInnerHTML={{
-    __html: content[categories[activeCategory].name][categories[activeCategory].subcategories[activeSubcategory]],
-  }}
-/>
-
+          className="bg-white rounded-lg shadow-md p-4 md:p-6 break-words overflow-auto"
+          dangerouslySetInnerHTML={{
+            __html: content[categories[activeCategory].name][categories[activeCategory].subcategories[activeSubcategory]],
+          }}
+        />
       </div>
     </div>
   );
 };
 
 export default TutorialPresentation;
-
