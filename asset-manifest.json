@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DJ-Guide/static/css/main.fd796765.css",
+    "main.js": "/DJ-Guide/static/js/main.88a1a4d2.js",
+    "static/js/453.ab63973e.chunk.js": "/DJ-Guide/static/js/453.ab63973e.chunk.js",
+    "index.html": "/DJ-Guide/index.html",
+    "main.fd796765.css.map": "/DJ-Guide/static/css/main.fd796765.css.map",
+    "main.88a1a4d2.js.map": "/DJ-Guide/static/js/main.88a1a4d2.js.map",
+    "453.ab63973e.chunk.js.map": "/DJ-Guide/static/js/453.ab63973e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd796765.css",
+    "static/js/main.88a1a4d2.js"
+  ]
+}
