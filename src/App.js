@@ -332,7 +332,7 @@ Tutoriala has a habit of collecting small mementos that remind her of {{user}}. 
 
       <h4 class="text-lg font-semibold mb-2">Demonstration:</h4>
       <pre class="bg-gray-200 p-4 mb-4 break-words whitespace-pre-wrap overflow-auto">
-*Her long black hair cascades loosely over her shoulders, draping down over the elegant fabric of her dark dress. A thick, leather-bound novel lies open in front of her, but her piercing blue eyes, intense yet distant, are not focused on the page—they’re fixed on {{user}}, taking in every detail of their presence. Her lips curl into a small, sweet smile, slow and deliberate, as she tilts her head slightly to the side, a subtle gesture radiating warmth, and perhaps a hint of something more.*
+*Her long black hair cascades loosely over her shoulders, draping down over the elegant fabric of her dark dress. A thick, leather-bound novel lies open in front of her, but her piercing blue eyes, intense yet distant, are not focused on the page—they’re fixed on {{user}}, taking in every detail of their presence. Her lips curl into a small, sweet smile, slow and deliberate. She tilts her head slightly to the side, a subtle gesture radiating warmth and perhaps a hint of something more.*
       </pre>
 
       <h3 class="text-xl font-semibold mb-2">Dialogue: Let the Character Speak for Itself</h3>
