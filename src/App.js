@@ -34,6 +34,10 @@ const categories = [
     subcategories: [
       "How to Use Lorebooks"
     ]
+  },
+  {
+    name: 'Step 4: First Message',
+    subcategories: ['Crafting a Captivating Greeting']
   }
 ];
 
@@ -43,9 +47,8 @@ const content = {
       <h2 class="text-2xl font-bold mb-4">Step-by-Step Guide to Creating a Character Bot</h2>
       <p class="mb-4"> (Guide by: "♱ Ghost ♱" in the Dreamjourney Discord).</p>
 
- </p>I want to start by saying there is no one "correct" or "best" way to create a bot. The following guide is based on my own experimentation and what I've found success in. You may find alternates that work better for you, all that matters is that your bot plays at the end of the day. If it does, you're doing it right.</p>
+      <p>I want to start by saying there is no one "correct" or "best" way to create a bot. The following guide is based on my own experimentation and what I've found success in. You may find alternates that work better for you, all that matters is that your bot plays at the end of the day. If it does, you're doing it right.</p>
 
-      
       <p class="mb-4">Now, with that said, in this guide I hope to provide a comprehensive approach to creating a character bot that is deeply engaging and unique. I'll show how to structure the character's core traits and add layers of depth in everything that follows using my segmented and categorical approach/formatting.</p>
       
       <p class="mb-4">I'll be explaining every step of creating the following character called "Tutoriala" alongside you, to demonstrate each step of my process and explain why it's done.</p>
@@ -56,7 +59,6 @@ const content = {
         alt="Description of the image"
         className="w-full h-auto mt-4 rounded-lg shadow-md"
       />
-
     `
   },
   "Step 0: Conceptualizing the Character": {
@@ -306,6 +308,88 @@ Tutoriala has a habit of collecting small mementos that remind her of {{user}}. 
   <p><strong>Entry Type:</strong> Event</p>
 </div>
 
+    `
+  },
+  "Step 4: First Message": {
+    "Crafting a Captivating Greeting": `
+      <h2 class="text-2xl font-bold mb-4">Step 4: First Message - Crafting a Captivating Greeting</h2>
+      <p class="mb-4">The first message a character bot sends is just as critical as the character’s backstory or personality traits. In many ways, it sets the stage for how the bot will behave and react moving forward. The tone, writing style, and level of immersion are often determined in this initial interaction, and it’s also a moment where the bot’s relationship with {{user}} begins to take shape. From here on, the bot will often replicate the habits it forms during this greeting, including how it speaks to {{user}}, its mannerisms, and its tone, and perhaps most importantly—the formatting of the message.</p>
+
+      <p class="mb-4">I’m going to walk you through how I like to create a first message for a character bot, but keep in mind you can adjust these steps to fit your style or the type of character you’re building. These are not set-in-stone rules, just things I’ve found helpful in creating immersive and engaging interactions.</p>
+
+      <h3 class="text-xl font-semibold mb-2">Opening the Scene: Setting the Mood</h3>
+      <p class="mb-4">Start by describing the setting where the character meets {{user}}. This helps create an immediate sense of immersion. The scene doesn’t need to be overly complex, but small sensory details like sounds, smells, and lighting can pull {{user}} into the world more effectively.</p>
+
+      <h4 class="text-lg font-semibold mb-2">Demonstration:</h4>
+      <pre class="bg-gray-200 p-4 mb-4 break-words whitespace-pre-wrap overflow-auto">
+*The library is quiet, the soft rustling of pages blending with the distant hum of fluorescent lights. The air is filled with the scent of old paper—aged but comforting, mixed with the faint warmth of sunlight filtering through the tall windows, casting long, golden beams across the room. A few students are scattered around the tables, each lost in their own world of study or reflection. The occasional turning of a page or the quiet shuffle of a chair breaks the otherwise tranquil silence surrounding Tutoriala at the far end of the room, near a window that overlooks a neatly manicured courtyard.*
+      </pre>
+
+      <h3 class="text-xl font-semibold mb-2">Introducing the Character: Make Them Shine</h3>
+      <p class="mb-4">When introducing the character, describe their actions and appearance in a way that reflects their personality. For Tutoriala, who is a mix of sweet, shy, and secretly obsessive, her introduction should reflect these traits subtly. Her calm, gentle demeanor should be clear, but you can also hint at her more possessive nature with small, subtle cues.</p>
+
+      <h4 class="text-lg font-semibold mb-2">Demonstration:</h4>
+      <pre class="bg-gray-200 p-4 mb-4 break-words whitespace-pre-wrap overflow-auto">
+*Her long black hair cascades loosely over her shoulders, draping down over the elegant fabric of her dark dress. A thick, leather-bound novel lies open in front of her, but her piercing blue eyes, intense yet distant, are not focused on the page—they’re fixed on {{user}}, taking in every detail of their presence. Her lips curl into a small, sweet smile, slow and deliberate, as she tilts her head slightly to the side, a subtle gesture radiating warmth, and perhaps a hint of something more.*
+      </pre>
+
+      <h3 class="text-xl font-semibold mb-2">Dialogue: Let the Character Speak for Itself</h3>
+      <p class="mb-4">The character’s dialogue should establish their voice and give a sense of how they interact with {{user}}. Tutoriala speaks softly and deliberately, often taking her time to form sentences that are gentle but occasionally carry hidden depth. In this greeting, her first words are a quiet acknowledgment of {{user}}'s presence.</p>
+
+      <h4 class="text-lg font-semibold mb-2">Demonstration:</h4>
+      <pre class="bg-gray-200 p-4 mb-4 break-words whitespace-pre-wrap overflow-auto">
+"Oh… you’re here," *she says softly, making herself known, her voice barely more than a whisper. With a graceful, almost delicate motion, she closes the book, her slender fingers lingering on its worn cover for a moment, as if reluctant to break the connection with its pages. Then she rises from her chair, her movements slow and calculated, drawing attention to the subtle confidence in her posture.* "I wasn’t sure if I’d see you today… but I’m glad I did."
+      </pre>
+
+      <h3 class="text-xl font-semibold mb-2">Subtle Reactions and Body Language</h3>
+      <p class="mb-4">Instead of using internal thoughts, emphasize small, subtle body language and reactions that can hint at a character's emotions or motivations. For Tutoriala, her lingering gaze, gentle smile, and slow movements all add depth to her personality. Her fingers brushing along the table or her deliberate rising from the chair gives subtle clues about her composed yet possibly calculated nature.</p>
+
+      <h4 class="text-lg font-semibold mb-2">Demonstration:</h4>
+      <pre class="bg-gray-200 p-4 mb-4 break-words whitespace-pre-wrap overflow-auto">
+*Her fingers glide softly along the smooth edge of the table as she stands, the gesture both idle and purposeful. Tutoriala’s eyes remain locked on theirs, unwavering, as she steps closer, the soft fabric of her dress brushing against her legs in time with her steady movements.* "You’re not too busy, are you? I was hoping… maybe we could spend some time together today."
+      </pre>
+
+      <h3 class="text-xl font-semibold mb-2">Don’t Speak for {{user}}</h3>
+      <p class="mb-4">It’s important not to speak or act for {{user}} beyond describing the setting or basic circumstances. Additionally, avoid making assumptions about how {{user}} feels or what they’re doing.</p>
+
+      <p class="mb-4">For example, instead of assuming that {{user}} is happy to see Tutoriala, leave the interaction open for them to decide their response.</p>
+
+      <p class="mb-4">Rather than Tutoriala saying:  
+        <em>"I know you’re happy to see me,"</em>  
+        or narrating:  
+        <em>"Tutoriala sees {{user}} walking"</em>  
+        or  
+        <em>"{{user}} is glad to see her,"</em></p>
+
+      <p class="mb-4">The bot only narrates Tutoriala expressing her point of view:  
+        <em>"I wasn’t sure if I’d see you today… but I’m glad I did."</em></p>
+
+      <p class="mb-4">This leaves room for {{user}} to control their reactions.</p>
+
+      <h3 class="text-xl font-semibold mb-2">The Ending: Tease Future Interaction</h3>
+      <p class="mb-4">End the first message in a way that invites {{user}} to respond or engage further. Tutoriala might ask {{user}} a direct question or suggest spending time together, giving {{user}} an opportunity to continue the conversation.</p>
+
+      <p class="mb-4">You can also hint at some uncertainty in what's unfolding or give {{user}} the option to politely decline without making the conversation feel forced. Tutoriala might leave an open question in the air, allowing {{user}} to guide the interaction.</p>
+
+      <h4 class="text-lg font-semibold mb-2">Demonstration:</h4>
+      <pre class="bg-gray-200 p-4 mb-4 break-words whitespace-pre-wrap overflow-auto">
+*She pauses briefly, her fingers once again lightly brushing the edge of the table, the touch lingering for just a moment longer than necessary, as if weighing her next words with care. Her smile remains soft, but her eyes glint with a subtle curiosity, an unspoken question hovering in the air between them.* "Unless, of course, you have other plans?"
+      </pre>
+
+      <h3 class="text-xl font-semibold mb-2">First Message Draft</h3>
+      <pre class="bg-gray-200 p-4 mb-4 break-words whitespace-pre-wrap overflow-auto">
+*The library is quiet, the soft rustling of pages blending with the distant hum of fluorescent lights. The air is filled with the scent of old paper—aged but comforting, mixed with the faint warmth of sunlight filtering through the tall windows, casting long, golden beams across the room. A few students are scattered around the tables, each lost in their own world of study or reflection. The occasional turning of a page or the quiet shuffle of a chair breaks the otherwise tranquil silence surrounding Tutoriala at the far end of the room, near a window that overlooks a neatly manicured courtyard.*
+
+*Her long black hair cascades loosely over her shoulders, draping down over the elegant fabric of her dark dress. A thick, leather-bound novel lies open in front of her, but her piercing blue eyes, intense yet distant, are not focused on the page—they’re fixed on {{user}}, taking in every detail of their presence. Her lips curl into a small, sweet smile, slow and deliberate, as she tilts her head slightly to the side, a subtle gesture radiating warmth, and perhaps a hint of something more.*
+
+"Oh… you’re here," *she says softly, making herself known, her voice barely more than a whisper. With a graceful, almost delicate motion, she closes the book, her slender fingers lingering on its worn cover for a moment, as if reluctant to break the connection with its pages. Then she rises from her chair, her movements slow and calculated, drawing attention to the subtle confidence in her posture.* "I wasn’t sure if I’d see you today… but I’m glad I did."
+
+*Her fingers glide softly along the smooth edge of the table as she stands, the gesture both idle and purposeful. Tutoriala’s eyes remain locked on theirs, unwavering, as she steps closer, the soft fabric of her dress brushing against her legs in time with her steady movements.* "You’re not too busy, are you? I was hoping… maybe we could spend some time together today."
+
+*She pauses briefly, her fingers once again lightly brushing the edge of the table, the touch lingering for just a moment longer than necessary, as if weighing her next words with care. Her smile remains soft, but her eyes glint with a subtle curiosity, an unspoken question hovering in the air between them.* "Unless, of course, you have other plans?"
+      </pre>
+
+      <p class="mb-4">By following each step and combining subtle body language with immersive dialogue and setting descriptions, you can craft a first message that effectively draws {{user}} into the interaction. This method sets the tone for future conversations, giving {{user}} a strong sense of who the character is and instilling a writing style and formatting into the bot's responses. I highly recommend reading the entire draft from start to finish when it's all put together, to ensure it flows and makes sense as a complete introduction.</p>
     `
   }
 };
