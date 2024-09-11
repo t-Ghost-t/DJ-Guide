@@ -351,7 +351,17 @@ Tutoriala has a habit of collecting small mementos that remind her of {{user}}. 
 *Her fingers glide softly along the smooth edge of the table as she stands, the gesture both idle and purposeful. Tutoriala’s eyes remain locked on theirs, unwavering, as she steps closer, the soft fabric of her dress brushing against her legs in time with her steady movements.* "You’re not too busy, are you? I was hoping… maybe we could spend some time together today."
       </pre>
 
-      <h3 class="text-xl font-semibold mb-2">Don’t Speak for {{user}}</h3>
+      <h3 class="text-xl font-semibold mb-2">The Ending: Tease Future Interaction</h3>
+      <p class="mb-4">End the first message in a way that invites {{user}} to respond or engage further. Tutoriala might ask {{user}} a direct question or suggest spending time together, giving {{user}} an opportunity to continue the conversation.</p>
+
+      <p class="mb-4">You can also hint at some uncertainty in what's unfolding or give {{user}} the option to politely decline without making the conversation feel forced. Tutoriala might leave an open question in the air, allowing {{user}} to guide the interaction.</p>
+
+      <h4 class="text-lg font-semibold mb-2">Demonstration:</h4>
+      <pre class="bg-gray-200 p-4 mb-4 break-words whitespace-pre-wrap overflow-auto">
+*She pauses briefly, her fingers once again lightly brushing the edge of the table, the touch lingering for just a moment longer than necessary, as if weighing her next words with care. Her smile remains soft, but her eyes glint with a subtle curiosity, an unspoken question hovering in the air between them.* "Unless, of course, you have other plans?"
+      </pre>
+
+<h3 class="text-xl font-semibold mb-2">Don’t Speak for {{user}}</h3>
       <p class="mb-4">It’s important not to speak or act for {{user}} beyond describing the setting or basic circumstances. Additionally, avoid making assumptions about how {{user}} feels or what they’re doing.</p>
 
       <p class="mb-4">For example, instead of assuming that {{user}} is happy to see Tutoriala, leave the interaction open for them to decide their response.</p>
@@ -368,17 +378,9 @@ Tutoriala has a habit of collecting small mementos that remind her of {{user}}. 
 
       <p class="mb-4">This leaves room for {{user}} to control their reactions.</p>
 
-      <h3 class="text-xl font-semibold mb-2">The Ending: Tease Future Interaction</h3>
-      <p class="mb-4">End the first message in a way that invites {{user}} to respond or engage further. Tutoriala might ask {{user}} a direct question or suggest spending time together, giving {{user}} an opportunity to continue the conversation.</p>
-
-      <p class="mb-4">You can also hint at some uncertainty in what's unfolding or give {{user}} the option to politely decline without making the conversation feel forced. Tutoriala might leave an open question in the air, allowing {{user}} to guide the interaction.</p>
-
-      <h4 class="text-lg font-semibold mb-2">Demonstration:</h4>
-      <pre class="bg-gray-200 p-4 mb-4 break-words whitespace-pre-wrap overflow-auto">
-*She pauses briefly, her fingers once again lightly brushing the edge of the table, the touch lingering for just a moment longer than necessary, as if weighing her next words with care. Her smile remains soft, but her eyes glint with a subtle curiosity, an unspoken question hovering in the air between them.* "Unless, of course, you have other plans?"
-      </pre>
-
       <h3 class="text-xl font-semibold mb-2">First Message Draft</h3>
+      <p class="mb-4">By following each step and combining subtle body language with immersive dialogue and setting descriptions, you can craft a first message that effectively draws {{user}} into the interaction. This method sets the tone for future conversations, giving {{user}} a strong sense of who the character is and instilling a writing style and formatting into the bot's responses. I highly recommend reading the entire draft from start to finish when it's all put together, to ensure it flows and makes sense as a complete introduction.</p>
+
       <pre class="bg-gray-200 p-4 mb-4 break-words whitespace-pre-wrap overflow-auto">
 *The library is quiet, the soft rustling of pages blending with the distant hum of fluorescent lights. The air is filled with the scent of old paper—aged but comforting, mixed with the faint warmth of sunlight filtering through the tall windows, casting long, golden beams across the room. A few students are scattered around the tables, each lost in their own world of study or reflection. The occasional turning of a page or the quiet shuffle of a chair breaks the otherwise tranquil silence surrounding Tutoriala at the far end of the room, near a window that overlooks a neatly manicured courtyard.*
 
@@ -391,7 +393,6 @@ Tutoriala has a habit of collecting small mementos that remind her of {{user}}. 
 *She pauses briefly, her fingers once again lightly brushing the edge of the table, the touch lingering for just a moment longer than necessary, as if weighing her next words with care. Her smile remains soft, but her eyes glint with a subtle curiosity, an unspoken question hovering in the air between them.* "Unless, of course, you have other plans?"
       </pre>
 
-      <p class="mb-4">By following each step and combining subtle body language with immersive dialogue and setting descriptions, you can craft a first message that effectively draws {{user}} into the interaction. This method sets the tone for future conversations, giving {{user}} a strong sense of who the character is and instilling a writing style and formatting into the bot's responses. I highly recommend reading the entire draft from start to finish when it's all put together, to ensure it flows and makes sense as a complete introduction.</p>
     `
   }
 };
