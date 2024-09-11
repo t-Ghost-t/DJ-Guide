@@ -38,6 +38,10 @@ const categories = [
   {
     name: 'Step 4: First Message',
     subcategories: ['Crafting a Captivating Greeting']
+  },
+  {
+    name: 'Step 5: Making your waifu real',
+    subcategories: ['Click here for the magic']
   }
 ];
 
@@ -412,10 +416,15 @@ const TutorialPresentation = () => {
   };
 
   const handleCategoryClick = (categoryIndex, subcategoryIndex) => {
+  if (categories[categoryIndex].name === 'Step 5: Making your waifu real') {
+    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+  } else {
     setActiveCategory(categoryIndex);
     setActiveSubcategory(subcategoryIndex);
     setIsMobileMenuOpen(false); // Close mobile menu after selection
-  };
+  }
+};
+
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
