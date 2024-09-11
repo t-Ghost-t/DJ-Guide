@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/DJ-Guide/static/css/main.cd162854.css",
-    "main.js": "/DJ-Guide/static/js/main.f3bad1a1.js",
+    "main.js": "/DJ-Guide/static/js/main.0bd98efd.js",
     "static/js/453.ab63973e.chunk.js": "/DJ-Guide/static/js/453.ab63973e.chunk.js",
     "index.html": "/DJ-Guide/index.html",
     "main.cd162854.css.map": "/DJ-Guide/static/css/main.cd162854.css.map",
-    "main.f3bad1a1.js.map": "/DJ-Guide/static/js/main.f3bad1a1.js.map",
+    "main.0bd98efd.js.map": "/DJ-Guide/static/js/main.0bd98efd.js.map",
     "453.ab63973e.chunk.js.map": "/DJ-Guide/static/js/453.ab63973e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd162854.css",
-    "static/js/main.f3bad1a1.js"
+    "static/js/main.0bd98efd.js"
   ]
 }
