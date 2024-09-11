@@ -317,6 +317,8 @@ Tutoriala has a habit of collecting small mementos that remind her of {{user}}. 
 
       <p class="mb-4">I’m going to walk you through how I like to create a first message for a character bot, but keep in mind you can adjust these steps to fit your style or the type of character you’re building. These are not set-in-stone rules, just things I’ve found helpful in creating immersive and engaging interactions.</p>
 
+	<p class="mb-4"> Note: Whether to encase narration in assterisks *like this* is personal preference, but I highly recommend encasing dialog in quotes "like this" regardless. </p>
+
       <h3 class="text-xl font-semibold mb-2">Opening the Scene: Setting the Mood</h3>
       <p class="mb-4">Start by describing the setting where the character meets {{user}}. This helps create an immediate sense of immersion. The scene doesn’t need to be overly complex, but small sensory details like sounds, smells, and lighting can pull {{user}} into the world more effectively.</p>
 
